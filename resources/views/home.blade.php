@@ -1,8 +1,13 @@
 @extends('layout.main')
 
 @section('content')
+    <div class="container d-flex justify-content-center">
+        <div class="logo-container">
+            <img src="/trains_logo.png" alt="logo">
+        </div>
+        <h1 class="text-warning fw-bold my-3">{{ $title }}</h1>
+    </div>
     <div class="container">
-        <h1 class="text-center my-3">{{ $title }}</h1>
         <p class="my-3">{{ $description }}</p>
     </div>
     <div class="container">
