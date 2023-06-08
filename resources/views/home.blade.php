@@ -36,9 +36,9 @@
                         <td>{{ $train['arrival_time'] }}</td>
                         <td>{{ $train['wagon_number'] }}</td>
                         <td class="{{ $train['is_in_time'] === 0 ? 'text-danger' : 'text-success' }}">
-                            {{ $train['on_time'] === 0 ? 'No' : 'Yes' }}</td>
+                            {{ $train['is_in_time'] === 0 ? 'No' : 'Yes' }}</td>
                         <td class="{{ $train['is_cancelled'] === 0 ? 'text-danger' : 'text-success' }}">
-                            {{ $train['deleted'] === 0 ? 'No' : 'Yes' }}</td>
+                            {{ $train['is_cancelled'] === 0 ? 'No' : 'Yes' }}</td>
                     </tr>
                 @endforeach
             </tbody>
