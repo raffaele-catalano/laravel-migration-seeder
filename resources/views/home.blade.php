@@ -20,7 +20,7 @@
                     <th scope="col">Arrival Station</th>
                     <th scope="col">Departure Time</th>
                     <th scope="col">Arrival Time</th>
-                    <th scope="col">Wagon</th>
+                    <th scope="col">Wagons</th>
                     <th scope="col">On Time</th>
                     <th scope="col">Cancelled</th>
                 </tr>

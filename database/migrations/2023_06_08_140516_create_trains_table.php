@@ -21,7 +21,7 @@ return new class extends Migration
             $table->dateTime('departure_time')->nullable();
             $table->dateTime('arrival_time')->nullable();
             $table->string('train_code', 10)->unique()->nullable();
-            $table->tinyInteger('wagon_number')->nullable();
+            $table->tinyInteger('wagons_number')->nullable();
             $table->boolean('is_in_time')->nullable();
             $table->boolean('is_cancelled')->nullable();
             $table->timestamps();
