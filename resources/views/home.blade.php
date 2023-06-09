@@ -34,7 +34,7 @@
                         <td>{{ $train['arrival_station'] }}</td>
                         <td>{{ $train['departure_time'] }}</td>
                         <td>{{ $train['arrival_time'] }}</td>
-                        <td>{{ $train['wagon_number'] }}</td>
+                        <td>{{ $train['wagons_number'] }}</td>
                         <td class="{{ $train['is_in_time'] === 0 ? 'text-danger' : 'text-success' }}">
                             {{ $train['is_in_time'] === 0 ? 'No' : 'Yes' }}</td>
                         <td class="{{ $train['is_cancelled'] === 0 ? 'text-danger' : 'text-success' }}">
